@@ -11,8 +11,8 @@
       "id": 2
     },
     {
-      "name": "Test Test",
-      "description": "This is a test",
+      "name": "HTML Quiz",
+      "description": "Intro into HTML knowledge quiz",
       "id": 3
     }
   ],
@@ -53,6 +53,24 @@
       "back": "b",
       "deckId": 1,
       "id": 7
+    },
+    {
+      "front": "What does the <p> stand for?",
+      "back": "Paragraph",
+      "deckId": 3,
+      "id": 8
+    },
+    {
+      "front": "What does the <img /> tag stand for?",
+      "back": "Image",
+      "deckId": 3,
+      "id": 9
+    },
+    {
+      "front": "What does the <h6> tag stand for?",
+      "back": "Heading 6",
+      "deckId": 3,
+      "id": 10
     }
   ]
 }
