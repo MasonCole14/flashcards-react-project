@@ -25,10 +25,10 @@ The home screen has the following features:
 When the user clicks on the `Delete` button associated with a particular deck, a warning message is shown. The user can either click
 `OK` or `Cancel`. If the user clicks `OK`, the deck is deleted and will no longer be visible on the Home page.
 
-![delete deck prompt](/screenshots/new/delete-deck-prompt.jpg)
+![Alt text](<screenshots/AA8DBBE5-3822-44A6-B1F2-903557B141C9_1_201_a.jpeg>)
 
 ### Study Screen:
-![study screen](/screenshots/new/study-screen.jpg)
+![Alt text](<screenshots/39DA66AE-4852-4E4D-AF15-93C99429A101_1_201_a.jpeg>)
 The study screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the name of the deck being studied and a link to that deck's
 screen, and finally, the text: `Study`. 
@@ -40,23 +40,23 @@ screen, and finally, the text: `Study`.
 After flipping the card on the Study screen, the backside of the card will now include a `Next` button as well. Clicking on the `Next`
 button will prompt the next card in the deck to be shown, front-side first. Clicking on the `Flip` button will show the front-side of the card again.
 
-![study screen next button](/screenshots/new/study-next-button.jpg)
+![Alt text](<screenshots/39DA66AE-4852-4E4D-AF15-93C99429A101_1_201_a.jpeg>)
 
 ### Restart Prompt:
 Once the user reaches the back-side of the last card in the deck, a warning message will appear. The user is offered the opportunity
 to restart the deck by clicking on the `OK` button. If the user chooses not to restart studying this deck, the `Cancel` button will take the
 user back to the Home page.
 
-![study screen restart prompt](/screenshots/new/study-restart-prompt.jpg)
+![Alt text](<screenshots/8158CC99-2961-4EA4-84FC-E0ECADEEA4E2_1_201_a.jpeg>)
 
 ### Not Enough Cards:
 If a user tries to study a deck with two or fewer cards in it, the Study screen will display a `Not enough cards` message and an `Add
 Cards` button. Clicking on the `Add Cards` button will take the user to the Add Card page, `decks/:deckId/cards/new`.
 
-![study screen not enough cards prompt](/screenshots/new/study-not-enough-cards.jpg)
+![Alt text](<screenshots/87BF112F-E3FE-44AA-91D8-C68D6EFCEB61_1_201_a.jpeg>)
 
 ### Create Deck:
-![create deck screen](/screenshots/new/create-deck-screen.jpg)
+![Alt text](<screenshots/E94E4452-90FF-4FF4-8775-F45C95F2928B_1_201_a.jpeg>)
 The Create Deck screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the text: `Create Deck`.
 - A form is shown with the appropriate fields for creating a new deck.
@@ -64,7 +64,7 @@ The Create Deck screen has the following features:
 - If the user clicks on the `Cancel` button, the user is taken back to the Home page.
 
 ### Deck Screen:
-![deck screen](/screenshots/new/deck-screen.jpg)
+![Alt text](<screenshots/A5743511-8268-4FE6-9381-7B4E258206A1_1_201_a.jpeg>)
 The Deck screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the name of the deck.
 - This screen includes the deck's name and description.
@@ -83,10 +83,10 @@ The Deck screen has the following features:
 When the user clicks on the `Delete` button associated with a card, a warning message appears. The user can either click on `OK` or `Cancel`.
 If the user clicks on `OK`, the card is deleted and will no longer appear on the Deck screen. Clicking `Cancel` will return the user to the Deck screen.
 
-![deck screen delete card prompt](/screenshots/new/delete-card-prompt.jpg)
+![Alt text](<screenshots/56A8D895-7A27-4EB6-B64A-2F7ED2591360_1_201_a.jpeg>)
 
 ### Edit Deck:
-![edit deck screen](/screenshots/new/edit-deck-screen.jpg)
+![Alt text](<screenshots/3E2FE7EC-1AE7-4B05-9B7C-9327A5EF60D9_1_201_a.jpeg>)
 When the user navigates to this page, `/decks/:deckId/edit`, they are able to modify information on an existing deck. The Edit Deck screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the name of the deck being edited, which is also a link to that deck's Deck
 screen, and lastly, the text: `Edit Deck`.
@@ -95,7 +95,7 @@ screen, and lastly, the text: `Edit Deck`.
 - If the user clicks on the `Cancel` or the `Submit` button, the user is taken back to the Deck screen.
 
 ### Add Card:
-![add card screen](/screenshots/new/add-card-screen.jpg)
+![Alt text](<screenshots/06EA558A-B5CF-4182-B636-59168F07C7EE_1_201_a.jpeg>)
 The Add Card page, `/decks/:deckId/cards/new`, allows the user to add new cards to the deck. This screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the name of the deck to which cards are being added, which is also a link
 to that deck's Deck screen, and finally the text: `Add Card`.
@@ -106,7 +106,7 @@ lines of text.
 for adding a new card is restarted.
 
 ### Edit Card:
-![edit card screen](/screenshots/new/edit-card-screen.jpg)
+![Alt text](<screenshots/EE809B25-28E4-474F-ACBA-BCDA88323B93_1_201_a.jpeg>)
 The Edit Card page, `/decks/:deckId/cards/:cardId/edit`, allows the user to modify information on an existing card in a deck. This screen has the following features:
 - A breadcrumb navigation bar with a link to the Home page, followed by the name of the deck of which the edited card is a member of, a link to
 that deck's Deck screen, and finally the text: `Edit Card :cardId`. 
